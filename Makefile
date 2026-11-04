@@ -3,7 +3,7 @@
 # Step 1: Install Scala 3 and make the binaries executable
 install:
 	@echo "Installing Scala 3..."
-	@wget -q https: / / github.com / lampepfl / dotty / releases / download / 3.3.3 / scala3-3.3.3.tar.gz
+	@wget -q https://github.com/lampepfl/dotty/releases/download/3.3.3/scala3-3.3.3.tar.gz
 	@tar -xzf scala3-3.3.3.tar.gz
 	@mv scala3-3.3.3 /opt/scala3
 	@ln -sf /opt/scala3/bin/scala3 /usr/local/bin/scala3
