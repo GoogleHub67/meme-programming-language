@@ -29,18 +29,13 @@ An advanced compiler-accurate processing pipeline powered by a **Scala 3 compila
 
 ## Technical Syntax Specifications
 
-The compiler translates slang operations into Scala 3 types. For complete syntax examples including control gates (`04_vibe_check.cap`) and monadic option/collection pipelines (`12_options_and_safety.cap`), refer to the source files in the repository or inspect `_data/keywords.json` to modify mapping tokens.
+The compiler translates slang operations into Scala 3 types. For complete syntax examples including control gates (`vibe_check.cap`) and monadic option/collection pipelines (`options_and_safety.cap`), refer to the source files in the repository or inspect `_data/keywords.json` to modify mapping tokens.
 
 ## Auxiliary Code Quality Dotfiles
 
 * **Code Formatter (`.scalafmt.conf`)**: Enforces rigid indentation constraints matching Scala 3 compiler dialects.
 * **Static Linter (`.scalafix.conf`)**: Audits code patterns to strip unused imports and catch issues before compilation.
 * **Version Locker (`.sdkmanrc`)**: Locks runtime environments to Java JDK 21 and Scala 3.3.3.
-
-### Toolchain Commands
-* `make format`: Automatically cleans code styling.
-* `make lint`: Evaluates semantic boundary rules.
-* `make clean`: Scrubs environment caches.
 
 ## License
 Distributed under the open-source **MIT License**.
