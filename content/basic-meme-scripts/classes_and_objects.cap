@@ -1,0 +1,14 @@
+BASED RIZZLER BlueprintModel {
+    SIGMA system_vibe(): OHIO
+}
+
+RIZZLER LiveInstance STAND PROUD BlueprintModel {
+    COPY MY FLOW SIGMA system_vibe(): OHIO = {
+        W "High Quality Pipeline Context Active"
+    }
+}
+
+FOR REAL FOR REAL
+    LOCK IN current_node: BlueprintModel = BE COOKING LiveInstance()
+    SPIT FACTS(current_node.system_vibe())
+IIGHT IMMA HEAD OUT
