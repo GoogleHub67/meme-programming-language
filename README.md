@@ -1,43 +1,46 @@
 # meme-programming-language (Scala 3 Engine Runner)
 
-This repository contains the **CapEngine** pipeline, structured for quick deployment and execution across terminal environments using a unified Makefile interface.
+An advanced compiler-accurate processing pipeline powered by a **Scala 3 compilation engine (CapEngine)** that parses and executes `.cap` script files written using internet meme and slang dialects.
 
-## Repository Structure
+## Repository Layout
 
-```text
-├── content/
-│   ├── keywords.json      # Configuration data for all memes and brainrots
-│   └── test.cap           # Script file for processing
-├── CapEngine.scala        # Main Scala engine source
-├── Makefile               # Automated execution steps
-└── README.md              # Project documentation
-```
+* `_data/keywords.json`: Central Scala 3 token map configuration dictionary.
+* `content/`: Contains basic-meme-scripts and root test scripts (`test.cap`) for the automated runtime pipeline.
+* `.scalafmt.conf` / `.scalafix.conf`: Prettier-equivalent Scala 3 indentation rules and ESLint-equivalent structural linter constraints.
+* `.sdkmanrc`: NVM-equivalent automated Java and Scala environment locker.
+* `CapEngine.scala` & `Makefile`: Main Scala processing pipeline compiler and cross-platform automated toolchain interface engine.
 
 ## Getting Started
 
-### Clone Repository
-```bash
-git clone https://github.com/GoogleHub67/meme-progamming-language
-cd meme-programming-language
-```
+1. **Clone the Workspace**:
+   ```bash
+   git clone https://github.com/GoogleHub67/meme-programming-language
+   cd meme-programming-language
+   ```
+2. **Install Engine Dependencies**:
+   ```bash
+   make install
+   ```
+3. **Compile and Run**:
+   ```bash
+   make compile
+   make run
+   ```
 
-### Step 1: Install Dependencies
-Download Scala 3, configure system symbolic links, and unlock tool execution permissions:
-```bash
-make install
-```
+## Technical Syntax Specifications
 
-### Configuration Notes
-* Check `content/keywords.json` to view or modify all supported memes and brainrot terms used by the parser.
+The compiler translates slang operations into Scala 3 types. For complete syntax examples including control gates (`04_vibe_check.cap`) and monadic option/collection pipelines (`12_options_and_safety.cap`), refer to the source files in the repository or inspect `_data/keywords.json` to modify mapping tokens.
 
-### Step 2: Compile & Test Engine
-Run the primary Scala compilation engine step and verify its exit status code:
-```bash
-make compile
-```
+## Auxiliary Code Quality Dotfiles
 
-### Step 3: Run Script Engine
-Execute the runner target using Java, parsing the target script located at `content/test.cap`:
-```bash
-make run
-```
+* **Code Formatter (`.scalafmt.conf`)**: Enforces rigid indentation constraints matching Scala 3 compiler dialects.
+* **Static Linter (`.scalafix.conf`)**: Audits code patterns to strip unused imports and catch issues before compilation.
+* **Version Locker (`.sdkmanrc`)**: Locks runtime environments to Java JDK 21 and Scala 3.3.3.
+
+### Toolchain Commands
+* `make format`: Automatically cleans code styling.
+* `make lint`: Evaluates semantic boundary rules.
+* `make clean`: Scrubs environment caches.
+
+## License
+Distributed under the open-source **MIT License**.
