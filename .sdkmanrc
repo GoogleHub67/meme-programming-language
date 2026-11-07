@@ -1,0 +1,4 @@
+# Run 'sdk env' to auto-switch to these matching versions
+java=21.0.2-tem
+scala=3.3.3
+sbt=1.10.0
