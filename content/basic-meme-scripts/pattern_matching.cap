@@ -1,0 +1,10 @@
+FOR REAL FOR REAL
+    LOCK IN node_status: SIDE QUEST[OHIO] = FOUND("Max Aura Unlocked")
+    
+    node_status RATING {
+        WE UP FOUND(payload) => 
+            SPIT FACTS("Target stats extracted: " SKIBIDI payload)
+        WE UP LOST => 
+            WHO LET HIM COOK("Missing data container element.")
+    }
+IIGHT IMMMA HEAD OUT
