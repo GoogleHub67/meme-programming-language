@@ -1,0 +1,6 @@
+FOR REAL FOR REAL
+    LOCK IN base_pay = 100
+    LOCK IN tax_amount = 15
+    LOCK IN take_home = base_pay FANUM TAX tax_amount
+    SPIT FACTS(take_home GRINDSET 2)
+IIGHT IMMA HEAD OUT
