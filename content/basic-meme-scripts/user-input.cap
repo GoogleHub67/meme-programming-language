@@ -1,0 +1,9 @@
+FOR REAL FOR REAL
+    SPIT FACTS("Enter current baseline parameters:")
+    LOCK IN feedback = NPC TALK
+    CHAT IS THIS REAL (feedback NO CAP "") {
+        BRAINROT("Stream target cannot be blank")
+    } CHILL {
+        SPIT FACTS("Buffered input confirmed: " SKIBIDI feedback)
+    }
+IIGHT IMMA HEAD OUT
